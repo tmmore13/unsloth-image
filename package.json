@@ -1,0 +1,40 @@
+{
+  "name": "opencode-plugin-unsloth-image",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./rpc": "./rpc.ts",
+    "./gui-experimental": "./dist/gui-experimental.cjs"
+  },
+  "files": [
+    "index.ts",
+    "rpc.ts",
+    "settings.ts",
+    "src",
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build:gui": "vite build",
+    "watch:gui": "vite build --watch",
+    "build:installers": "node installers/build.mjs",
+    "build:all": "npm run build:gui && npm run build:installers"
+  },
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.11",
+    "solid-js": "^1.9.0",
+    "tar-stream": "^3.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^7.0.0",
+    "vite-plugin-solid": "^2.11.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

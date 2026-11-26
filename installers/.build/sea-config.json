@@ -1,0 +1,21 @@
+{
+  "main": "C:\\Users\\Timot\\OneDrive\\Documents\\Default Project\\.opencode\\plugins\\unsloth-image\\installers\\windows-installer.cjs",
+  "output": "C:\\Users\\Timot\\OneDrive\\Documents\\Default Project\\.opencode\\plugins\\unsloth-image\\installers\\dist\\unsloth-image-installer.exe",
+  "disableExperimentalSEAWarning": true,
+  "execArgv": [
+    "--no-warnings"
+  ],
+  "execArgvExtension": "none",
+  "assets": {
+    "payload/index.ts": "C:\\Users\\Timot\\OneDrive\\Documents\\Default Project\\.opencode\\plugins\\unsloth-image\\installers\\.build\\payload\\index.ts",
+    "payload/rpc.ts": "C:\\Users\\Timot\\OneDrive\\Documents\\Default Project\\.opencode\\plugins\\unsloth-image\\installers\\.build\\payload\\rpc.ts",
+    "payload/settings.ts": "C:\\Users\\Timot\\OneDrive\\Documents\\Default Project\\.opencode\\plugins\\unsloth-image\\installers\\.build\\payload\\settings.ts",
+    "payload/package.json": "C:\\Users\\Timot\\OneDrive\\Documents\\Default Project\\.opencode\\plugins\\unsloth-image\\installers\\.build\\payload\\package.json",
+    "payload/README.md": "C:\\Users\\Timot\\OneDrive\\Documents\\Default Project\\.opencode\\plugins\\unsloth-image\\installers\\.build\\payload\\README.md",
+    "payload/src/gui.tsx": "C:\\Users\\Timot\\OneDrive\\Documents\\Default Project\\.opencode\\plugins\\unsloth-image\\installers\\.build\\payload\\src\\gui.tsx",
+    "payload/src/gui/definition.ts": "C:\\Users\\Timot\\OneDrive\\Documents\\Default Project\\.opencode\\plugins\\unsloth-image\\installers\\.build\\payload\\src\\gui\\definition.ts",
+    "payload/src/gui/page.tsx": "C:\\Users\\Timot\\OneDrive\\Documents\\Default Project\\.opencode\\plugins\\unsloth-image\\installers\\.build\\payload\\src\\gui\\page.tsx",
+    "payload/dist/gui-experimental.cjs": "C:\\Users\\Timot\\OneDrive\\Documents\\Default Project\\.opencode\\plugins\\unsloth-image\\installers\\.build\\payload\\dist\\gui-experimental.cjs",
+    "payload/manifest.json": "C:\\Users\\Timot\\OneDrive\\Documents\\Default Project\\.opencode\\plugins\\unsloth-image\\installers\\.build\\payload\\manifest.json"
+  }
+}
