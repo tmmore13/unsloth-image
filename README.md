@@ -168,14 +168,3 @@ The image is saved under `outputDir` and returned as a `Tool.FileContent` result
 - **Non-local host refused** — set `allowPublicHosts: true` only if you intentionally expose Unsloth over a network, and protect it with a strong API key.
 - **No Unsloth Image settings tab** — use OpenCode Desktop, make sure the server plugin loaded, and restart Desktop. The tab is not available in the terminal UI.
 
-## Development
-
-```bash
-npm install
-npm run build:all       # GUI bundle + Windows .exe + Ubuntu .deb
-npm run build:gui       # GUI bundle only
-npm run build:installers
-npx tsc --noEmit
-```
-
-Installer details are in [`installers/README.md`](installers/README.md).
